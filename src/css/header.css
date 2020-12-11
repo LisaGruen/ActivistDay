@@ -1,0 +1,59 @@
+body {
+  background-color: #9ccae7;
+}
+
+body .header {
+  background-image: url("../img/_1320187.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0 0 50% 50%;
+}
+
+body .header img {
+  width: 20px;
+}
+
+body .header h2 {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  padding-top: 15px;
+}
+body .header .textbox {
+  margin: auto;
+  width: 35vw;
+  border-radius: 25px;
+  background-color: #caaa34;
+  height: 100px;
+}
+
+body .header .description {
+  margin: auto;
+  width: 35vw;
+  z-index: 1;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+  padding-top: 15px;
+}
+
+body .header .navbar {
+  background-color: transparent !important;
+  margin-left: 200px;
+}
+
+body .header .navbar .nav-link {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+body .header .navbar .menu {
+  display: block !important;
+  float: right;
+}
