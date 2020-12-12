@@ -1,0 +1,25 @@
+.history {
+  background-color: #808d33;
+  border-radius: 100% 100% 0 0;
+  padding-top: 30px;
+}
+
+.history_container .container iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.cards .row .col-6 {
+  margin-bottom: 25px;
+  min-height: 758px;
+}
+
+.card {
+  cursor: pointer;
+  height: 100%;
+}
+
+.card__text {
+  text-align: center;
+  height: 100%;
+}

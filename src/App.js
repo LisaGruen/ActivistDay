@@ -54,6 +54,7 @@ const App = () => {
           currentPage={currentPage}
           navigateToPage={navigateToPage}
           title={pageContent.pagetitle}
+          pagetitel2={pageContent.pagetitel2}
           description={pageContent.description}
           learnMore={pageContent.learnmore}
         />

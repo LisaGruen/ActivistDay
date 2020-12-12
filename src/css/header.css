@@ -12,7 +12,7 @@ body .header {
 }
 
 body .header img {
-  width: 20px;
+  width: 100px;
 }
 
 body .header h2 {
@@ -21,15 +21,23 @@ body .header h2 {
   max-width: 900px;
   text-align: center;
   color: white;
-  margin-top: 100px;
   padding-top: 15px;
 }
-body .header .textbox {
+
+body .header .textbox_1 {
   margin: auto;
   width: 35vw;
   border-radius: 25px;
   background-color: #caaa34;
-  height: 100px;
+  height: 80px;
+}
+
+body .header .textbox_2 {
+  margin: auto;
+  width: 35vw;
+  border-radius: 25px;
+  background-color: #0078c1;
+  height: 80px;
 }
 
 body .header .description {

@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import logo from '../img/DUOHeart.png';
+import logo from '../img/AktivismeDagLogo.png';
 
-const Header = ({currentPage, navigateToPage, title, description, learnMore}) => {
+const Header = ({currentPage, navigateToPage, title, description, learnMore, pagetitel2}) => {
 	const current = (<span className="sr-only">(current)</span>);
 
 	const onClickLink = (e) => {
@@ -37,9 +37,13 @@ const Header = ({currentPage, navigateToPage, title, description, learnMore}) =>
 	            </ul>
 	          </div>
 	        </nav>
-<div className="textbox">
+<div className="textbox_1">
 			<h2>
 				{title}
+			</h2></div>
+			<div className="textbox_2">
+			<h2>
+				{pagetitel2}
 			</h2></div>
 			
 			<div className="description">
@@ -53,6 +57,7 @@ Header.propTypes = {
   currentPage: PropTypes.string,
   navigateToPage: PropTypes.func,
   title: PropTypes.string,
+  pagetitel2: PropTypes.string,
   description: PropTypes.string,
   learnMore: PropTypes.string
 };
