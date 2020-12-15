@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import History from './History';
-
+import Newsletter from './Newsletter';
 
 const Content = ({currentPage, pageContent}) => {
 
@@ -13,6 +13,13 @@ const Content = ({currentPage, pageContent}) => {
 				<div className="container" dangerouslySetInnerHTML={{
 					 __html: pageContent.content ? pageContent.content.rendered : ''
 				}}></div>
+			  )}
+			{currentPage === 'about' ? (
+				<div className="container">
+					<Newsletter />
+				</div>
+			  ) : (  
+				''
 			  )}
       	</div>
 	);

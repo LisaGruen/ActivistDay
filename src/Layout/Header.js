@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import logo from '../img/AktivismeDagLogo.png';
+import logo from '../img/AktivismeDagLogo_02.png';
 
 const Header = ({currentPage, navigateToPage, title, description, learnMore, pagetitel2}) => {
 	const current = (<span className="sr-only">(current)</span>);
@@ -14,9 +14,7 @@ const Header = ({currentPage, navigateToPage, title, description, learnMore, pag
   		<div className="header">
 	        <nav className="navbar navbar-expand-lg navbar-light bg-light">
 	          <a className="navbar-brand" href="/"><img alt="logo" src={logo} /></a>
-	          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	            <span className="navbar-toggler-icon"></span>
-	          </button>
+
 	          <div className="menu collapse navbar-collapse" id="navbarNavDropdown">
 	            <ul className="navbar-nav">
 				<li className={`nav-item ${currentPage === 'home' ? 'active' : ''}`}>
@@ -32,19 +30,19 @@ const Header = ({currentPage, navigateToPage, title, description, learnMore, pag
 	                <a className="nav-link" onClick={onClickLink} data-slug="guide" href="/guide">Teachers guide {currentPage === 'guide' ? current : ''}</a>
 	              </li>
 	               <li className={`nav-item ${currentPage === 'about' ? 'active' : ''}`}>
-	                <a className="nav-link" onClick={onClickLink} data-slug="about" href="/about">About UNICEF Danmark {currentPage === 'about' ? current : ''}</a>
+	                <a className="nav-link" onClick={onClickLink} data-slug="about" href="/about">About{currentPage === 'about' ? current : ''}</a>
 	              </li>
 	            </ul>
 	          </div>
 	        </nav>
 <div className="textbox_1">
-			<h2>
+			<h1>
 				{title}
-			</h2></div>
+			</h1></div>
 			<div className="textbox_2">
-			<h2>
+			<h1>
 				{pagetitel2}
-			</h2></div>
+			</h1></div>
 			
 			<div className="description">
 				{description}
