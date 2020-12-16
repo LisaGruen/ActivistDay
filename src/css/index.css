@@ -2,6 +2,7 @@
 @import "content.css";
 @import "footer.css";
 @import "history.css";
+@import "floater.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
@@ -29,7 +30,7 @@ h2 {
 
 p {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;

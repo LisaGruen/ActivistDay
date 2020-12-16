@@ -2,21 +2,55 @@ body {
   background-color: #9ccae7;
 }
 
-body .header {
+/* TOPBAR */
+
+.header {
   background-image: url("../img/Header.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
   font-family: "Montserrat", sans-serif;
   border-radius: 0 0 50% 50%;
+  width: 100%;
 }
 
-body .header img {
+.header .topbar {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.header .topbar .topbar-brand {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.header .topbar-brand img {
   width: 130px;
   height: auto;
 }
 
-body .header h1 {
+.header .topbar .topbar-menu-wrapper {
+  float: left;
+}
+
+.header .topbar .topbar-menu-wrapper .topbar-menu {
+  margin-top: 50px;
+}
+
+.header .topbar .topbar-menu .menu-item {
+  display: inline-block;
+}
+
+.header .topbar .topbar-menu .menu-link {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/* PAGE */
+.header h1 {
   position: relative;
   z-index: 1;
   text-align: center;
@@ -24,7 +58,7 @@ body .header h1 {
   padding-top: 15px;
 }
 
-body .header .textbox_1 {
+.header .textbox_1 {
   margin: auto;
   margin-top: 120px;
   width: 48%;
@@ -33,7 +67,7 @@ body .header .textbox_1 {
   height: 80px;
 }
 
-body .header .textbox_2 {
+.header .textbox_2 {
   margin: auto;
   width: 40%;
   border-radius: 25px;
@@ -41,7 +75,7 @@ body .header .textbox_2 {
   height: 80px;
 }
 
-body .header .description {
+.header .description {
   margin: auto;
   margin-top: 20px;
   width: 40%;
@@ -54,32 +88,109 @@ body .header .description {
   padding-top: 15px;
 }
 
-body .header .navbar {
-  background-color: transparent !important;
-  margin-left: 200px;
-}
+@media only screen and (max-width: 1900px) {
+  .header .topbar {
+    font-size: 0.8em;
+  }
+  .header .topbar-brand img {
+    width: 100px;
+    height: auto;
+  }
 
-body .header .navbar .nav-link {
-  color: white;
-  font-size: 1.5em;
-  font-weight: bold;
-  padding-left: 5px;
-}
-body .header .navbar .menu {
-  display: block !important;
-  float: right;
-}
+  .header .topbar .topbar-menu .menu-link {
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-left: 15px;
+  }
 
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #ebab1f;
-}
-
-@media only screen and (max-width: 800px) {
-  body .header .navbar .menu {
-    width: 100%;
+  .header h1 {
+    position: relative;
+    font-size: 2.5em;
+    z-index: 1;
     text-align: center;
+    color: white;
+    padding-top: 10px;
+  }
+
+  .header .textbox_1 {
+    margin: auto;
+    margin-top: 80px;
+    width: 50%;
+    border-radius: 25px;
+    background-color: #caaa34;
+    height: 65px;
+  }
+
+  .header .textbox_2 {
+    margin: auto;
+    width: 50%;
+    border-radius: 25px;
+    background-color: #898c23;
+    height: 65px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .header {
+    background-image: url("../img/Header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 0 0 50% 50%;
+    width: 100%;
+  }
+
+  .header .topbar {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .header .topbar .topbar-menu .menu-link {
+    padding-left: 0;
+  }
+
+  .header .topbar .topbar-menu .menu-item {
+    display: block;
+  }
+
+  .header .topbar .topbar-menu .menu-link {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .header .topbar .topbar-menu-wrapper .topbar-menu {
+    margin-top: 20px;
+  }
+  .header h1 {
+    position: relative;
+    font-size: 1.6em;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+  }
+
+  .header .textbox_1 {
+    margin: auto;
+    width: 70%;
+    border-radius: 25px;
+    background-color: #caaa34;
+    height: 50px;
+  }
+
+  .header .textbox_2 {
+    margin: auto;
+    width: 70%;
+    border-radius: 25px;
+    background-color: #898c23;
+    height: 50px;
+  }
+
+  .header .description {
+    display: none;
   }
 }

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Header from './Layout/Header.js';
 import Footer from './Layout/Footer.js';
 import Content from './Layout/Content.js';
+import floater1 from './img/Sign.png';
+import floater2 from './img/AktivismeDag_floater2.png';
 
 
 const App = () => {
@@ -70,6 +72,10 @@ const App = () => {
             <div>Loading...</div>
           )
       }
+
+<img className="floater1" src={floater1} />
+<img className="floater2" src={floater2} />
+
       </main>
 
       <footer>
