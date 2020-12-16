@@ -78,3 +78,17 @@
     transform: translate(0, 0);
   }
 }
+
+@media only screen and (max-width: 1600px) {
+  .timeline .timeline-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline .timeline-grid .timeline-item.gap {
+    display: none;
+  }
+
+  .timeline-grid .timeline-item:nth-child(even) {
+    border-left: 0;
+  }
+}

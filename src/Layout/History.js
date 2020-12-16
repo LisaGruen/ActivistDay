@@ -160,8 +160,8 @@ const History = () => {
 				</div>
 
 				<div className="container">
-				    <h2>Game</h2>
-	        	    <p>Det følgende afsnit vil præsentere en række historiske eksempler, som kan bruges i det første modul til at illustrere aktivismens betydning for nutidens samfund. Disse kan være udgangspunktet for en fremlæggelse, men du er også selv velkommen til at skræddersy dit eget forløb. Vi  starter tilbage i antikken, og fortsætter helt frem til det 20-århundrede. </p>
+				    <h2>Spil</h2>
+	        	    <p>Spil et spil og lære om børnenes rettigheder.</p>
 					<iframe
 					src="http://zoekenndal.dk/4sem/nebula">
 					</iframe>
