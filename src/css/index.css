@@ -4,6 +4,7 @@
 @import "history.css";
 @import "floater.css";
 @import "timeline.css";
+@import "newsletter.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
@@ -27,6 +28,19 @@ h2 {
   font-weight: bold;
   text-align: center;
   z-index: 1;
+}
+
+h3 {
+  display: block;
+  font-size: 3em;
+
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  font-weight: bold;
 }
 
 p {

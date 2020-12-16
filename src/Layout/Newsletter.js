@@ -22,7 +22,13 @@ const Newsletter = () => {
     }
 
     return (
+        <div className="newsletter_Wrapper"> 
+            <h2>NYHEDSBREV</h2>
+            <hr></hr>
+            <p>Modtag vores gratis undervisningsmaterialer og masser af inspiration til dig som lærer fire gange årligt.</p>
+       
         <div className="newsletter">
+            
             <div className="newsletter__message">
                 Please enter your email
             </div>
@@ -35,7 +41,8 @@ const Newsletter = () => {
                     {message}
                 </div>
             ) : ('')}
-        </div>
+            
+        </div><hr></hr></div>
 	);
 };
 

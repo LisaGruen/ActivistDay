@@ -4,16 +4,17 @@
 }
 
 .timeline .timeline-grid .timeline-item.gap {
-  min-height: 80px;
+  min-height: 100%;
 }
 
 .timeline .timeline-grid .timeline-item {
-  min-height: 300px;
+  min-height: 100%;
 }
 
 .timeline-grid .timeline-item.text-item .timeline-item-content {
-  background-color: #0078c1;
+  background-color: #d1cecc;
   text-align: center;
+  border-radius: 1.8em;
 }
 
 .timeline-grid .timeline-item.text-item:nth-child(even) .timeline-item-content {
@@ -25,7 +26,7 @@
 }
 
 .timeline-grid .timeline-item:nth-child(even) {
-  border-left: 5px solid purple;
+  border-left: 5px solid #be9d00;
 }
 
 .timeline-item-content .item-img {
@@ -39,7 +40,7 @@
 }
 
 .timeline-item-content .item-text p {
-  font-size: 1.4em;
+  font-size: 1.5em;
   margin: 30px;
   padding-left: 40px;
   padding-right: 40px;

@@ -23,16 +23,16 @@ const Header = ({currentPage, navigateToPage, title, description, learnMore, pag
 	                <a className="menu-link" onClick={onClickLink} data-slug="home" href="/home">Home {currentPage === 'home' ? current : ''}</a>
 	              </li>
 	              <li className={`menu-item ${currentPage === 'history' ? 'active' : ''}`}>
-	                <a className="menu-link" onClick={onClickLink} data-slug="history" href="/history">History {currentPage === 'history' ? current : ''}</a>
+	                <a className="menu-link" onClick={onClickLink} data-slug="history" href="/history">Historie {currentPage === 'history' ? current : ''}</a>
 	              </li>
 	              <li className={`menu-item ${currentPage === 'workshops' ? 'active' : ''}`}>
 	                <a className="menu-link" onClick={onClickLink} data-slug="workshops" href="/workshops">Workshops {currentPage === 'workshops' ? current : ''}</a>
 	              </li>
 	              <li className={`menu-item ${currentPage === 'guide' ? 'active' : ''}`}>
-	                <a className="menu-link" onClick={onClickLink} data-slug="guide" href="/guide">Teachers guide {currentPage === 'guide' ? current : ''}</a>
+	                <a className="menu-link" onClick={onClickLink} data-slug="guide" href="/guide">Lærvejledning {currentPage === 'guide' ? current : ''}</a>
 	              </li>
 	               <li className={`menu-item ${currentPage === 'about' ? 'active' : ''}`}>
-	                <a className="menu-link" onClick={onClickLink} data-slug="about" href="/about">About{currentPage === 'about' ? current : ''}</a>
+	                <a className="menu-link" onClick={onClickLink} data-slug="about" href="/about">Om UNICEF{currentPage === 'about' ? current : ''}</a>
 	              </li>
 	            </ul>
 	          </div>

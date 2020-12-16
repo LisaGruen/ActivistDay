@@ -68,7 +68,7 @@ const History = () => {
 								<div className="item-text">
 									<div className="item-title">Demokratiets fødsel</div>
 									<h3>508 BC</h3>
-									<p>Første eksempel tager os tilbage til byen Athen i det gamle Grækenland. Her stillede folket sig op mod de rige magthaverne, der gennem flere hundrede år havde undertrykt dem. Folk levede i fattigdom og uden del i noget som helst, og nogle få rige personer havde al magten på bekostning af resten. Men dette ændrede sig i 508 f.kr., da folk havde fået nok af uretfærdigheden og fjernede magthaverne.</p>
+									<p>Første eksempel tager os tilbage til byen Athen i det gamle Grækenland. Her stillede folket sig op mod de rige magthaverne, der gennem flere hundrede år havde undertrykt dem.</p>
 								</div>
 							</div>
 						</div>
@@ -82,7 +82,7 @@ const History = () => {
 								<div className="item-text">
 								<div className="item-title">Martin Luther</div>
 									<h3>1517</h3>
-									<p>Martin Luther var en sand aktivist, og hans handlinger må siges at have haft en enorm indflydelse. Luther var munken der startede Reformationen, og hans handlinger viser gode eksempler på aktivisme. Luther kæmpede mod det uretfærdige i at den katolske kirke krævede store summer af penge af folk for at kunne komme få frelse. Her mente Luther, at man skulle kunne blive frelst alene ved sin tro. Luther startede Reformationen med den aktivistiske handling i at hænge 95 teser/idéer på kirkedøren til slotskirken i Wittenberg.</p>
+									<p>Martin Luther var en sand aktivist, og hans handlinger må siges at have haft en enorm indflydelse. Luther var munken der startede Reformationen, og hans handlinger viser gode eksempler på aktivisme.</p>
 								</div>
 							</div>
 						</div>
@@ -94,8 +94,7 @@ const History = () => {
 								<div className="item-text">
 								<div className="item-title">Olympe De Gouges</div>
 									<h3>1789</h3>
-									<p>Ved den Franske Revolution blev det bestemt at “alle mænd var skabt ligeværdigt” med Menneskerettighedserklæringen i 1789. Denne erklæring skabte fundamentet for hvad der senere hen er blevet til de forskellige Menneskerettighedskonventioner.  Menneskerettighedserklæringen galt dog kun en lille gruppe af mandlige borgerne i Frankrig. 
-En sej kvindelig aktivist ved navn Olympe De Gauges skrev et par år efter en lignende erklæring, der krævede, at kvinder også skulle have disse rettigheder. Hun syntes, at det var uretfærdigt at kvinder ikke skulle have de samme rettigheder som de andre. 
+									<p>En sej kvindelig aktivist ved navn Olympe De Gauges skrev et par år efter en lignende erklæring, der krævede, at kvinder også skulle have disse rettigheder. Hun syntes, at det var uretfærdigt at kvinder ikke skulle have de samme rettigheder som de andre. 
 </p>
 								</div>
 							</div>
@@ -104,11 +103,32 @@ En sej kvindelig aktivist ved navn Olympe De Gauges skrev et par år efter en li
 						<div className="timeline-item gap"></div>
 						<div className="timeline-item gap"></div>
 						<div className="timeline-item title-item"></div>
-						<div className="timeline-item text-item">sfdgfdgfd</div>
+						<div className="timeline-item text-item">
+							<div className="timeline-item-content">
+								<img className="item-img" src={sign} />
+								<div className="item-text">
+								<div className="item-title">MALALA YOUSAFZAI</div>
+									<h3>1997</h3>
+									<p>I Pakistan har piger dårligere muligheder for uddannelse end drenge, men Malalas far var skolelærer, og han insisterede på Malala skulle have de samme muligheder som en dreng. </p>
+								</div>
+							</div>
+						</div>
 						<div className="timeline-item gap"></div>
 						<div className="timeline-item gap"></div>
-						<div className="timeline-item text-item">dfgdffd</div>
-						<div className="timeline-item title-item">sdfdsfdsfsd</div>
+						<div className="timeline-item text-item">
+							<div className="timeline-item-content">
+								<img className="item-img" src={sign} />
+								<div className="item-text">
+								<div className="item-title">GRETA THUNBERG</div>
+									<h3>2003</h3>
+									<p>Det er de færreste, der ikke har hørt om den svenske skolepige og klimaaktivist Greta Thunberg. I august 2018 udførte hun som 15-årig en aktivistisk handling ved at sætte sig foran den svenske Riksdag med et papskilt med teksten “Skölstrejk för klimatet”.</p>
+								</div>
+								
+							</div>
+						</div>
+						<div className="timeline-item title-item"></div>
+						<div className="timeline-item gap"></div>
+						<div className="timeline-item gap"></div>
 					</div>
 				</div>
 				
