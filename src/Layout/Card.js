@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-const Content = ({image, text}) => {
+const Card = ({image, text}) => {
     const [flipped, setFlipped] = useState(false);
 
     return (
-        <div className="card p-3" onClick={() => setFlipped(!flipped)}>
+        <div className="card" onClick={() => setFlipped(!flipped)}>
             {
                 flipped ? (    
                     <div className="card__text">
@@ -19,9 +19,9 @@ const Content = ({image, text}) => {
 	);
 };
 
-Content.propTypes = {
+Card.propTypes = {
     image: PropTypes.string,
     text: PropTypes.string
 };
 
-export default Content;
+export default Card;

@@ -139,20 +139,20 @@ const History = () => {
 							<p>Du ved sikkert godt at du har ret til at gå i skole og have et tag over hovedet. Men, vidste du at det også er en rettighed at have adgang til information? eller at du skal kunne oprette og deltage i klubber? Der er mange forskellige børnerettigheder, der er med til at forbedre verden for børn over hele kloden. I år har vi fokus på de følgende 4 rettigheder, som du kan læse om nedenfor.</p>
 
 							<div className="cards">
-								<div className="row gy-5">
-									<div class="col-6">
-										<Card image={unicef12} text="Børn har ret til frit at sige deres mening om emner, der er vigtige for dem. Voksne skal lytte og tage børn alvorligt." />
-									</div>
-									<div class="col-6">
-										<Card image={unicef13} text="Børn har ret til at dele deres viden, tanker og følelser med andre ved at tale, tegne, skrive eller være kreativ på andre måder, med mindre det skader andre mennesker." />
-									</div>
-									<div class="col-6">
-										<Card image={unicef24} text="Børn har ret til den bedst mulige pleje og behandling, rent drikkevand, sund mad og et rent og sikkert miljø at leve i. Alle voksne og børn skal have information om, hvordan de kan holde sig sikre og sunde." />
-									</div>
-									<div class="col-6">
-										<Card image={unicef29} text="Uddannelse skal hjælpe børn med helt at udvikle deres personligheder, talenter og evner. Uddannelsen skal lære dem at forstå deres egne rettigheder og at respektere andre menneskers rettigheder, kulturer og forskelligheder. Uddannelsen skal hjælpe børn med at leve fredeligt og beskytte miljøet." />
-									</div>
+								
+								<div class="card-item">
+									<Card image={unicef12} text="Artikel 12_RESPEKT FOR BØRNS MENING: Børn har ret til frit at sige deres mening om emner, der er vigtige for dem. Voksne skal lytte og tage børn alvorligt." />
 								</div>
+								<div class="card-item">
+									<Card image={unicef13} text="Artikel 13_DELING AF VIDEN: Børn har ret til at dele deres viden, tanker og følelser med andre ved at tale, tegne, skrive eller være kreativ på andre måder, med mindre det skader andre mennesker." />
+								</div>
+								<div class="card-item">
+									<Card image={unicef24} text="Artikel 24_SUNDHED,VAND, MAD OG MILJØ: Børn har ret til den bedst mulige pleje og behandling, rent drikkevand, sund mad og et rent og sikkert miljø at leve i. Alle voksne og børn skal have information om, hvordan de kan holde sig sikre og sunde." />
+								</div>
+								<div class="card-item">
+									<Card image={unicef29} text="Artikel 29_FORMÅL MED UDDANNELSE: Uddannelse skal hjælpe børn med helt at udvikle deres personligheder, talenter og evner. Uddannelsen skal lære dem at forstå deres egne rettigheder og at respektere andre menneskers rettigheder, kulturer og forskelligheder. Uddannelsen skal hjælpe børn med at leve fredeligt og beskytte miljøet." />
+								</div>
+							
 					
 							</div>
 						</section>

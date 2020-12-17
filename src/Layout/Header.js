@@ -29,7 +29,7 @@ const Header = ({currentPage, navigateToPage, title, description, learnMore, pag
 	                <a className="menu-link" onClick={onClickLink} data-slug="workshops" href="/workshops">Workshops {currentPage === 'workshops' ? current : ''}</a>
 	              </li>
 	              <li className={`menu-item ${currentPage === 'guide' ? 'active' : ''}`}>
-	                <a className="menu-link" onClick={onClickLink} data-slug="guide" href="/guide">Lærvejledning {currentPage === 'guide' ? current : ''}</a>
+	                <a className="menu-link" onClick={onClickLink} data-slug="guide" href="/guide">Lærervejledning {currentPage === 'guide' ? current : ''}</a>
 	              </li>
 	               <li className={`menu-item ${currentPage === 'about' ? 'active' : ''}`}>
 	                <a className="menu-link" onClick={onClickLink} data-slug="about" href="/about">Om UNICEF{currentPage === 'about' ? current : ''}</a>
