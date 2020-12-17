@@ -88,7 +88,7 @@ body {
   padding-top: 15px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1400px) {
   .header .topbar {
     font-size: 0.8em;
   }
@@ -104,19 +104,19 @@ body {
     padding-left: 15px;
   }
 
-  .header h1 {
+  /* .header h1 {
     position: relative;
-    font-size: 2.5em;
+    font-size: 2em;
     z-index: 1;
     text-align: center;
     color: white;
     padding-top: 10px;
-  }
+  }*/
 
   .header .textbox_1 {
     margin: auto;
     margin-top: 80px;
-    width: 50%;
+    width: 80%;
     border-radius: 25px;
     background-color: #caaa34;
     height: 65px;
@@ -124,7 +124,7 @@ body {
 
   .header .textbox_2 {
     margin: auto;
-    width: 50%;
+    width: 80%;
     border-radius: 25px;
     background-color: #898c23;
     height: 65px;
@@ -165,18 +165,10 @@ body {
   .header .topbar .topbar-menu-wrapper .topbar-menu {
     margin-top: 20px;
   }
-  .header h1 {
-    position: relative;
-    font-size: 1.6em;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-  }
 
   .header .textbox_1 {
     margin: auto;
-    width: 70%;
+    width: 90%;
     border-radius: 25px;
     background-color: #caaa34;
     height: 50px;
@@ -184,7 +176,7 @@ body {
 
   .header .textbox_2 {
     margin: auto;
-    width: 70%;
+    width: 90%;
     border-radius: 25px;
     background-color: #898c23;
     height: 50px;

@@ -47,8 +47,6 @@ const App = () => {
     setCurrentPage(page);
   }
 
-  console.log(pageContent);
-
   return (
     <>
       <header>
