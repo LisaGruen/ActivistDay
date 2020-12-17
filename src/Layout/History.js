@@ -60,7 +60,7 @@ const History = () => {
 					<p>Men der har også altid har været mennesker der har kæmpet for at gøre verden en lille smule bedre. Her har vi illustreret aktivismens historie på en tidslinje for at give et bedre overblik.</p>
 				</div>
 
-				<div className="timeline container">
+				<div className="timeline container-md">
 					<div className="timeline-grid">
 						<div className="timeline-item text-item">
 							<div className="timeline-item-content">
@@ -153,7 +153,6 @@ const History = () => {
 									<Card image={unicef29} text="Artikel 29_FORMÅL MED UDDANNELSE: Uddannelse skal hjælpe børn med helt at udvikle deres personligheder, talenter og evner. Uddannelsen skal lære dem at forstå deres egne rettigheder og at respektere andre menneskers rettigheder, kulturer og forskelligheder. Uddannelsen skal hjælpe børn med at leve fredeligt og beskytte miljøet." />
 								</div>
 							
-					
 							</div>
 						</section>
 					</div>

@@ -16,7 +16,7 @@ body .container figure iframe {
 }
 
 body .container li {
-  font-size: 2em;
+  font-size: 1.2em;
   list-style-type: circle;
   list-style-image: url("../img/Bulletpoints.png");
 }
@@ -40,7 +40,7 @@ body .container .wp-image-76 {
   width: 50%;
 }
 
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 800px) {
   body .container .wp-block-columns {
     grid-template-columns: 1fr;
     text-align: center;

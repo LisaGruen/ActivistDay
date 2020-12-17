@@ -7,10 +7,15 @@ body .footer {
   height: 30vp;
   font-family: "Montserrat", sans-serif;
   border-radius: 100% 100% 0 0;
+  padding-bottom: 40px;
 }
 
 body .footer .container {
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+body .footer .container .footer-brand img {
+  width: 60%;
 }

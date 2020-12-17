@@ -1,4 +1,5 @@
 import React from 'react';
+import logoU from '../img/UnicefLogo.png';
 
 const Footer = () => {
     return (
@@ -7,20 +8,19 @@ const Footer = () => {
 				  <h2>Kontakt</h2>
 	        <div className="row">
 	          <div className="col-sm">
-			  UNICEF Danmark<br></br>
-Rentemestervej 62<br></br>
-2400 København NV<br></br>
+			  This is a project from<br></br>
+			  Zoe Kenndal Shafir<br></br>
+Lisa Grünwaldt<br></br>
 
-Telefon: 35 27 38 00
 	          </div>
+	        
 	          <div className="col-sm">
-			  Anne-Mette Friis<br></br>
-Chef for National Afdeling<br></br>email: amf@unicef.dk
+			  Final exam project​ at KEA<br></br>
+in collaboration with<br></br>
+UNICEF Danmark
 	          </div>
-	          <div className="col-sm">
-			  Jakob Skov Øllgaard​<br></br>
-CRE Manager/Programleder for uddannelse<br></br>
-jolgaard@unicef.dk
+			  <div className="col-sm">
+			  <a className="footer-brand" href="/"><img alt="logo UNICEF" src={logoU} /></a>
 	          </div></div>
 	        </div>
       	</div>

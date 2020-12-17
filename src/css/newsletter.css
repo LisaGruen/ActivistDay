@@ -12,16 +12,16 @@
   padding-bottom: 30px;
 }
 .newsletter .newsletter__message {
-  font-size: 1.8em;
+  font-size: 1.2em;
 }
 
 hr {
   border: 1px solid #be9d00;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 500px) {
   .newsletter .newsletter__message {
-    font-size: 1.3em;
+    font-size: 1em;
   }
   .newsletter {
     display: block;
