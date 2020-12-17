@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import logo from '../img/AktivismeDagLogo_03.png';
+import logo from '../img/AktivismeDagLogo_02.png';
 
 const Header = ({currentPage, navigateToPage, title, description, learnMore, pagetitel2}) => {
 	const current = (<span className="sr-only">(current)</span>);
